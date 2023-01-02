@@ -37,9 +37,9 @@ submenu1_3_qty=[f"{submenu1_3}-{qty1}",f"{submenu1_3}-{qty2}",f"{submenu1_3}-{qt
 #sub2_menu Menu
 #Submenu 2 Quantities
 s2qty1= "Quantity 1"
-s2qty2= "Quantity 1"
-s2qty3= "Quantity 1"
-s2qty4= "Quantity 1"
+s2qty2= "Quantity 2"
+s2qty3= "Quantity 3"
+s2qty4= "Quantity 4"
 submenu2_1="Submenu 2 Item 1" #Change this to whatever item name you want
 submenu2_1_prices=["8", "70", "300", "500"]
 submenu2_1_qty=[f"{submenu2_1}-{s2qty1}",f"{submenu2_1}-{s2qty2}",f"{submenu2_1}-{s2qty3}",f"{submenu2_1}-{s2qty4}"]
@@ -53,9 +53,9 @@ submenu3_sub_ops2="Submenu 3 Category 2"
 
 #Submenu 3 Quanitities
 s3qty1= "Quantity 1"
-s3qty2= "Quantity 1"
-s3qty3= "Quantity 1"
-s3qty4= "Quantity 1"
+s3qty2= "Quantity 2"
+s3qty3= "Quantity 3"
+s3qty4= "Quantity 4"
 submenu3_sub_op1="Submenu 3 Cat 1 Item 1" #Change this to whatever item name you want
 submenu3_sub_op1_prices=["30", "60", "110", "220"]
 submenu3_sub_op1_qtys=[f"{submenu3_sub_op1}-{s3qty1}",f"{submenu3_sub_op1}-{s3qty2}",f"{submenu3_sub_op1}-{s3qty3}",f"{submenu3_sub_op1}-{s3qty4}"]
@@ -90,10 +90,10 @@ submenu1_3_add=[[InlineKeyboardButton(f"Add {qty1} to Cart", callback_data=subme
 submenu2_1_add=[[InlineKeyboardButton(f"Add {s2qty1} to Cart", callback_data=submenu2_1_qty[0]),],[InlineKeyboardButton(f"Add {s2qty2} to Cart", callback_data=submenu2_1_qty[1]),],[InlineKeyboardButton(f"Add {s2qty3} to Cart", callback_data=submenu2_1_qty[2]),],[InlineKeyboardButton(f"Add {s2qty4} to Cart", callback_data=submenu2_1_qty[3]),],[InlineKeyboardButton("Back", callback_data="4_Back_4")],]
 submenu2_2_add=[[InlineKeyboardButton(f"Add {s2qty1} to Cart", callback_data=submenu2_2_qty[0]),],[InlineKeyboardButton(f"Add {s2qty2} to Cart", callback_data=submenu2_2_qty[1]),],[InlineKeyboardButton(f"Add {s2qty3} to Cart", callback_data=submenu2_2_qty[2]),],[InlineKeyboardButton(f"Add {s2qty4} to Cart", callback_data=submenu2_2_qty[3]),],[InlineKeyboardButton("Back", callback_data="5_Back_5")],]
 
-submenu3_sub_op1_add=[[InlineKeyboardButton(f"Add {s3qty1} Oz to Cart", callback_data=submenu3_sub_op1_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op1_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} Oz to Cart", callback_data=submenu3_sub_op1_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op1_qtys[3]),],[InlineKeyboardButton("Back", callback_data="6_Back_6")],]
-submenu3_sub_op2_add=[[InlineKeyboardButton(f"Add {s3qty1} Oz to Cart", callback_data=submenu3_sub_op2_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op2_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} Oz to Cart", callback_data=submenu3_sub_op2_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op2_qtys[3]),],[InlineKeyboardButton("Back", callback_data="6_Back_6")],]
-submenu3_sub_op3_add=[[InlineKeyboardButton(f"Add {s3qty1} Oz to Cart", callback_data=submenu3_sub_op3_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op3_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} Oz to Cart", callback_data=submenu3_sub_op3_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op3_qtys[3]),],[InlineKeyboardButton("Back", callback_data="7_Back_7")],]
-submenu3_sub_op4_add=[[InlineKeyboardButton(f"Add {s3qty1} Oz to Cart", callback_data=submenu3_sub_op4_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op4_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} Oz to Cart", callback_data=submenu3_sub_op4_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op4_qtys[3]),],[InlineKeyboardButton("Back", callback_data="7_Back_7")],]
+submenu3_sub_op1_add=[[InlineKeyboardButton(f"Add {s3qty1} to Cart", callback_data=submenu3_sub_op1_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op1_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} to Cart", callback_data=submenu3_sub_op1_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op1_qtys[3]),],[InlineKeyboardButton("Back", callback_data="6_Back_6")],]
+submenu3_sub_op2_add=[[InlineKeyboardButton(f"Add {s3qty1} to Cart", callback_data=submenu3_sub_op2_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op2_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} to Cart", callback_data=submenu3_sub_op2_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op2_qtys[3]),],[InlineKeyboardButton("Back", callback_data="6_Back_6")],]
+submenu3_sub_op3_add=[[InlineKeyboardButton(f"Add {s3qty1} to Cart", callback_data=submenu3_sub_op3_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op3_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} to Cart", callback_data=submenu3_sub_op3_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op3_qtys[3]),],[InlineKeyboardButton("Back", callback_data="7_Back_7")],]
+submenu3_sub_op4_add=[[InlineKeyboardButton(f"Add {s3qty1} to Cart", callback_data=submenu3_sub_op4_qtys[0]),],[InlineKeyboardButton(f"Add {s3qty2} to Cart", callback_data=submenu3_sub_op4_qtys[1]),],[InlineKeyboardButton(f"Add {s3qty3} to Cart", callback_data=submenu3_sub_op4_qtys[2]),],[InlineKeyboardButton(f"Add {s3qty4} to Cart", callback_data=submenu3_sub_op4_qtys[3]),],[InlineKeyboardButton("Back", callback_data="7_Back_7")],]
 
 #Start Function
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -107,125 +107,44 @@ async def categories(update: Update, context: ContextTypes.DEFAULT_TYPE)-> None:
     await query.answer()
     data=query.data
 
-    #Shopping Cart Callbacks
-    #Submenu1 Callbacks: I use a for loop to cycle through my results easier and keep everything easy to read. 
+# Menu options dictionary
+# Format: {'callback_data': ('item_name', price, 'keyboard')}
     for i in range(4):
-        if submenu1_1_qty[i] in data:
-            cart_cost.append(submenu1_1_prices[i])
-            cart_items.append(submenu1_1_qty[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu1_1_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu1_1_qty[i]} added to the cart!', reply_markup=reply_markup)
-        if submenu1_2_qty[i] in data:
-            cart_cost.append(submenu1_2_prices[i])
-            cart_items.append(submenu1_2_qty[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu1_2_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu1_2_qty[i]} added to the cart!', reply_markup=reply_markup)
-        if submenu1_3_qty[i] in data:
-            cart_cost.append(submenu1_3_prices[i])
-            cart_items.append(submenu1_3_qty[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu1_3_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu1_3_qty[i]} added to the cart!', reply_markup=reply_markup)
-        
-        #Submenu2 Callbacks
-        if submenu2_1_qty[i] in data:
-            cart_cost.append(submenu2_1_prices[i])
-            cart_items.append(submenu2_1_qty[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu2_1_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu2_1_qty[i]} added to the cart!', reply_markup=reply_markup)
-        if submenu2_2_qty[i] in data:
-            cart_cost.append(submenu2_2_prices[i])
-            cart_items.append(submenu2_2_qty[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu2_2_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu2_2_qty[i]} added to the cart!', reply_markup=reply_markup)
+        menu_options = {
+        submenu1_1_qty[i]: (submenu1_1_qty[i], submenu1_1_prices[i], submenu1_1_add),
+        submenu1_2_qty[i]: (submenu1_2_qty[i], submenu1_2_prices[i], submenu1_2_add),
+        submenu1_3_qty[i]: (submenu1_3_qty[i], submenu1_3_prices[i], submenu1_3_add),
+        submenu2_1_qty[i]: (submenu2_1_qty[i], submenu2_1_prices[i], submenu2_1_add),
+        submenu2_2_qty[i]: (submenu2_2_qty[i], submenu2_2_prices[i], submenu2_2_add),
+        submenu3_sub_op1_qtys[i]: (submenu3_sub_op1_qtys[i], submenu3_sub_op1_prices[i], submenu3_sub_op1_add),
+        submenu3_sub_op2_qtys[i]: (submenu3_sub_op2_qtys[i], submenu3_sub_op2_prices[i], submenu3_sub_op2_add),
+}
 
-        #Submenu 3 Callbacks
-        if submenu3_sub_op1_qtys[i] in data:
-            cart_cost.append(submenu3_sub_op1_prices[i])
-            cart_items.append(submenu3_sub_op1_qtys[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu3_sub_op1_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu3_sub_op1_qtys[i]} added to the cart!', reply_markup=reply_markup)
+        if data in menu_options:
+        # Add item to cart
+            item, price, keyboard = menu_options[data]
+            cart_items.append(item)
+            cart_cost.append(price)
+            total_amount = sum(map(int, cart_cost))
+            reply_markup = InlineKeyboardMarkup(keyboard)
+            await query.edit_message_caption(caption=f'{item} added to the cart!', reply_markup=reply_markup)
+            continue
 
-        if submenu3_sub_op2_qtys[i] in data:
-            cart_cost.append(submenu3_sub_op2_prices[i])
-            cart_items.append(submenu3_sub_op2_qtys[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu3_sub_op2_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu3_sub_op2_qtys[i]} added to the cart!', reply_markup=reply_markup)
+    back_options = {
+        "1_Back_1": (Submenu1_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option1}:"),
+        "2_Back_2": (Submenu1_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option1}:"),
+        "3_Back_3": (Submenu1_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option1}:"),
+        "4_Back_4": (Submenu2_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option2}:"),
+        "5_Back_5": (Submenu2_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option2}:"),
+        "6_Back_6": (Submenu3_ops_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option3}:"),
+        "7_Back_7": (Submenu3_ops_kb, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg", f"{option3}:"),
+    }
 
-        if submenu3_sub_op3_qtys[i] in data:
-            cart_cost.append(submenu3_sub_op3_prices[i])
-            cart_items.append(submenu3_sub_op3_qtys[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu3_sub_op3_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu3_sub_op3_qtys[i]} added to the cart!', reply_markup=reply_markup)
-
-        if submenu3_sub_op4_qtys[i] in data:
-            cart_cost.append(submenu3_sub_op4_prices[i])
-            cart_items.append(submenu3_sub_op4_qtys[i])
-            total_amount=sum(map(int,cart_cost))
-            keyboard=submenu3_sub_op4_add
-            reply_markup=InlineKeyboardMarkup(keyboard)
-            await query.edit_message_caption(caption=f'{submenu3_sub_op4_qtys[i]} added to the cart!', reply_markup=reply_markup)
-
-    #Back buttons for submenu 1
-    back1 = {
-        "1_Back_1": (Submenu1_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        "2_Back_2": (Submenu1_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        "3_Back_3": (Submenu1_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg")
-        }
-    
-    if data in back1:
-        keyboard, func, photo = back1[data]
+    if data in back_options:
+        keyboard, photo, caption = back_options[data]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        media=InputMediaPhoto(photo, caption=f"{option1}:")
-        await func(media=media, reply_markup=reply_markup)
-    
-    #Back Buttons for Submenu 2
-    back2 = {
-        "4_Back_4": (Submenu2_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        "5_Back_5": (Submenu2_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        }
-    
-    if data in back2:
-        keyboard, func, photo = back2[data]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        media=InputMediaPhoto(photo, caption=f"{option2}:")
-        await func(media=media, reply_markup=reply_markup)
-
-    #Back Buttons for Submenu 3
-    back3 = {
-        "6_Back_6": (Submenu3_ops_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        }
-    
-    if data in back3:
-        keyboard, func, photo = back3[data]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        media=InputMediaPhoto(photo, caption=f"{option3}:")
-        await func(media=media, reply_markup=reply_markup)
-
-    back4 = {
-        "7_Back_7": (Submenu3_ops_kb, query.edit_message_media, "https://images.cdn2.stockunlimited.net/preview1300/menu-logo-icon_1710148.jpg"),
-        }
-    
-    if data in back4:
-        keyboard, func, photo = back4[data]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        media=InputMediaPhoto(photo, caption=f"{option3}:")
-        await func(media=media, reply_markup=reply_markup)
+        media = InputMediaPhoto(photo, caption=caption)
+        await query.edit_message_media(media=media, reply_markup=reply_markup)
 
     if cart_cost_op in data:
         total_amount = sum(map(int, cart_cost))
@@ -242,54 +161,39 @@ async def categories(update: Update, context: ContextTypes.DEFAULT_TYPE)-> None:
         for item, count in item_counts.items():
             await update.effective_message.reply_text(f"{count}:{item}")
 
-    # Initial Categories
+
+# Initial Categories
     categories = {
-    option1: (Submenu1_kb, query.edit_message_caption),
-    option2: (Submenu2_kb, query.edit_message_caption),
-    option3: (Submenu3_ops_kb, query.edit_message_caption)
+        option1: (Submenu1_kb, query.edit_message_caption, f"{query.data}:",),
+        option2: (Submenu2_kb, query.edit_message_caption, f"{query.data}:",),
+        option3: (Submenu3_ops_kb, query.edit_message_caption, f"{query.data}:",),
+    }
+
+    submenus = {
+        submenu1_1: (submenu1_1_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', 'Submenu 1 Option 1'),
+        submenu1_2: (submenu1_2_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Deux.svg/1200px-Deux.svg.png', 'Submenu 1 Option 2'),
+        submenu1_3: (submenu1_3_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Trois.svg/1200px-Trois.svg.png', 'Submenu 1 Option 3'),
+        submenu2_1: (submenu2_1_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Quatre.svg/1200px-Quatre.svg.png', "Submenu 2 option 1"),
+        submenu2_2: (submenu2_2_add, query.edit_message_media, "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cinq.svg/800px-Cinq.svg.png", "Submenu 2 option 2"),
+        submenu3_sub_ops1: (Submenu3_op1_kb, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', f"{submenu3_sub_ops1}:"),
+        submenu3_sub_ops2: (Submenu3_op2_kb, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Deux.svg/1200px-Deux.svg.png', f"{submenu3_sub_ops2}:"),
+        submenu3_sub_op1: (submenu3_sub_op1_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', f"{submenu3_sub_op1}:"),
+        submenu3_sub_op2: (submenu3_sub_op2_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', f"{submenu3_sub_op2}:"),
+        submenu3_sub_op3: (submenu3_sub_op3_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', f"{submenu3_sub_op3}:"),
+        submenu3_sub_op4: (submenu3_sub_op4_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', f"{submenu3_sub_op4}:"),
     }
 
     if data in categories:
-        keyboard, func = categories[data]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        await func(caption=f"{query.data}:", reply_markup=reply_markup)
-    
-    #Submenu 1
-    sub1_menu = {
-    submenu1_1: (submenu1_1_add, update.effective_message.edit_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Un1.svg/1200px-Un1.svg.png', 'Submenu 1 Option 1'),
-    submenu1_2: (submenu1_2_add, update.effective_message.edit_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Deux.svg/1200px-Deux.svg.png', 'Submenu 1 Option 2'),
-    submenu1_3: (submenu1_3_add, update.effective_message.edit_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Trois.svg/1200px-Trois.svg.png', 'Submenu 1 Option 3')
-    }
-
-    if data in sub1_menu:
-        keyboard, func, photo, caption = sub1_menu[data]
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        media=InputMediaPhoto(photo, caption=caption)
-        await func(media=media, reply_markup=reply_markup)
-
-    #Submenu 2
-    sub2_menu = {
-    submenu2_1: (submenu2_1_add, query.edit_message_media, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Quatre.svg/1200px-Quatre.svg.png', "Submenu 2 option 1"),
-    submenu2_2: (submenu2_2_add, query.edit_message_media, "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cinq.svg/800px-Cinq.svg.png", "Submenu 2 option 2")
-    }
-
-    if data in sub2_menu:
-        keyboard, func, photo, caption = sub2_menu[data]
-        media=InputMediaPhoto(photo, caption=caption)
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        await func(media=media, reply_markup=reply_markup )
-
-   #Submenu 3
-    sub3_menu = {
-    submenu3_sub_ops1: (Submenu3_op1_kb, query.edit_message_caption, f"{submenu3_sub_ops1}:"),
-    submenu3_sub_ops2: (Submenu3_op2_kb, query.edit_message_caption, f"{submenu3_sub_ops2}:"),
-    }
-
-    if data in sub3_menu:
-        keyboard, func, text = sub3_menu[data]
+        keyboard, func, text = categories[data]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await func(caption=text, reply_markup=reply_markup)
-    
+
+    elif data in submenus:
+        keyboard, func, photo, caption = submenus[data]
+        media = InputMediaPhoto(photo, caption=caption)
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await func(media=media, reply_markup=reply_markup)
+        
     #Main Menu Category    
     if main_menu_op in data:
         keyboard=main_menu
@@ -298,7 +202,7 @@ async def categories(update: Update, context: ContextTypes.DEFAULT_TYPE)-> None:
 
         
 def main() -> None:
-    application = ApplicationBuilder().token('ADD Bot Token here').build()
+    application = ApplicationBuilder().token('ADD Bot TOKEN HERE').build()
     application.add_handler(CommandHandler("start", start))
     
     #Below this line we will use the query handler for different things
